@@ -21,7 +21,7 @@ class AccountsTest {
 
     @Test
     void addAccount() {
-        assertEquals(4,accounts.getSize());
+        assertEquals(5,accounts.getSize());
         accounts.addAccount(new Account("alguien",5));
         assertEquals(5,accounts.getSize());
     }
